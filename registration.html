@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Registration</title>
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+	<h1 class="header">&nbsp;SE7EN<img id="logo" src="styles/logo.png" alt="Logo"></h1>
+	<hr>
+
+	<h5>
+		<a id="internalUrl" href="home.html"> HOME </a> &nbsp; | &nbsp; 
+		<a id="internalUrl" href="registration.html"> REGISTRATION </a> &nbsp; | &nbsp; 
+		<a id="internalUrl" href="login.html"> LOGIN </a> &nbsp;
+	</h5>
+	
+	<h1 class="registration">Registration</h1>
+
+	<form action="thank.html">
+	  	Full Name:<br>
+	  	<input type="text" name="fullname"><br>
+	  	Email Address:<br>
+	  	<input type="text" name="email"><br>
+	  	Password:<br>
+	  	<input type="Password" name="password"><br>
+	  	
+	  	Gender:<br>
+	  	<input type="radio" name="gender" value="Male" checked> Male
+  		<input type="radio" name="gender" value="Female"> Female
+  		<input type="radio" name="gender" value="Other"> Other
+
+  		<br>
+  		Country:<br>
+  		<select>
+  			<option value="bangladesh">Bangladesh</option>
+  			<option value="india">India</option>
+  			<option value="srilanka">Srilanka</option>
+  			<option value="pakistan">Pakistan</option>
+  			<option value="nepal">Nepal</option>
+  			<option value="bhutan">Bhutan</option>
+  			<option value="maldives">Maldives</option>
+  			<option value="afganistan">Afganistan</option>
+  			<option value="other">Other</option>
+		</select>
+
+		<br>
+		<input type="checkbox" name="agreement" value="agreement">I am fully agree with terms & conditions.<br>
+
+		<button type="submit">SUBMIT</button>
+	</form>
+
+</body>
+</html>

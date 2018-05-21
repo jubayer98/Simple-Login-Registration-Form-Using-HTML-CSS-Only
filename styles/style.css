@@ -1,0 +1,127 @@
+body
+{
+	background-color: #191919;
+}
+
+h1.header
+{
+	font-size: 56px;
+	color: #f7b32d;
+}
+
+#logo
+{
+	width: 100px;
+	height: 115px;
+	float: left;
+}
+
+hr
+{
+	border-width: 3px;
+	border-color: #f7b32d;
+}
+
+table.homeTable
+{
+	width: 65%;
+}
+
+tr
+{
+	font-size: 20px;
+}
+
+th
+{
+	color: #ECECEA;
+	text-align: justify;
+}
+
+a.homeRegUrl
+{
+	font-size: 28px; 
+	color: #C63D0F; 
+	text-decoration: none;
+}
+
+a.homeLogUrl
+{
+	font-size: 28px; 
+	color: #A8CD1B; 
+	text-decoration: none;
+}
+
+footer
+{
+	font-size: 10px; 
+	color: #ECECEA;
+	float: right;
+}
+
+h5
+{
+	color: #f7b32d;
+	text-align: right;
+}
+
+#internalUrl
+{
+	text-decoration: none; 
+	color: #f7b32d;
+}
+
+h1.login
+{
+	color:#A8CD1B;
+}
+
+form
+{
+	color: #ECECEA;
+}
+
+h1.registration
+{
+	color: #C63D0F;
+}
+
+h3
+{
+	font-size: 36px; 
+	color: #f7b32d;
+}
+
+#profilePic
+{
+	 width: 100px; 
+	 height: 130px;
+	 float: left;
+}
+
+p.profilePara
+{
+	color: #ECECEA; 
+	font-size: 18px;
+	text-align: left;
+}
+
+table.profileTable
+{
+	width: 35%;
+}
+
+td.leftTd
+{
+	color: #f7b32d;
+}
+
+td.rightTd
+{
+	color: #ECECEA;
+}
+
+h1.confirmation
+{
+	color: #ECECEA;
+}
